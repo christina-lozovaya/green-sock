@@ -1,0 +1,51 @@
+header {
+  background-color: #a3cdac;
+  color: #1b223c;
+  padding: 20px 0;
+
+  img {
+    max-height: 250px;
+  }
+
+  .intro {
+    font-size: 25px;
+    color: #362f3c;
+  }
+
+
+  h2 {
+    color: #fff;
+    padding: 20px;
+    background-color: #1b223c;
+    margin: 0 auto;
+  }
+
+  ul {
+    text-align: left;
+
+    li {
+      padding: 10px;
+      background-color: #d3eedd;
+      margin-bottom: 3px;
+      cursor: pointer;
+      transition: all .3s ease-in-out;
+
+      &:hover {
+        background-color: #363a3c;
+        color: #f1f1f1;
+      }
+    }
+  }
+
+  .buttons {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+
+    button {
+      max-width: 140px;
+      display: block;
+      margin-bottom: 5px;
+    }
+  }
+};

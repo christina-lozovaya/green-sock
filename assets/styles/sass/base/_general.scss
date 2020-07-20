@@ -1,0 +1,43 @@
+body {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 18px;
+  line-height: 1.5;
+  background-color: #fff;
+}
+
+main {
+  position: relative;
+  background-color: #fff;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 30px;
+
+  &--sm {
+    max-width: 600px;
+  }
+}
+
+.centered {
+  text-align: center;
+}
+
+ul, ol, li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: underline;
+}

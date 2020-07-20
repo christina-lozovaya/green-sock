@@ -1,0 +1,64 @@
+.section {
+  padding: 100px 0;
+  min-height: 300px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #fff;
+
+  &--intro {
+	height: 100vh;
+	width: 100%;
+	background-color: blueviolet;
+	color: #fff;
+  }
+
+  &--bg-white {
+	background-color: #fff;
+  }
+
+  &--bg-grey {
+	background-color: #f1f1f1;
+  }
+
+  &__icon {
+	width: 200px;
+	margin-bottom: 20px;
+  }
+
+  &__title {
+	margin-bottom: 20px;
+  }
+
+  &__content {
+	max-width: 900px;
+	margin: 0 auto;
+  }
+}
+
+.bcg-parallax {
+  padding: 150px 0;
+  color: #fff;
+  background-color: #000;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+
+  .bcg {
+	background: url("../../images/dist/laptop_parallax.jpg") no-repeat;
+	background-size: cover;
+	position: absolute;
+	width: 100%;
+	height: 150%;
+	top: 0;
+	z-index: 1;
+	opacity: 0.5;
+  }
+
+  .bcg__content {
+	width: 90%;
+	margin: 0 auto;
+	max-width: 1140px;
+	position: relative;
+	z-index: 2;
+  }
+}
