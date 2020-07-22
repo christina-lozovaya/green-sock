@@ -1,0 +1,56 @@
+.perspective {
+  min-height: 50vh;
+  height: auto;
+  width: 100%;
+  position: relative;
+  //position: absolute;
+  perspective: 600px;
+
+  .buttons {
+	position: absolute;
+	right: 42px;
+	top: 20px;
+
+	button {
+	  max-width: 140px;
+	  display: block;
+	  margin-bottom: 5px;
+	}
+  }
+
+  #boxHTML {
+	width: 200px;
+	height: 200px;
+	background-color: transparentize(#2B4D66, 0.2);
+	position: relative;
+	p {
+	  margin: 0;
+	  font-size: 40px;
+	  position: absolute;
+	  bottom: 20px;
+	  width: 100%;
+	  text-align: center;
+	  color: #fff;
+	}
+  }
+
+  #htmlDOT {
+	width: 40px;
+	height: 40px;
+	border-radius: 100%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #b1dec7;
+  }
+
+  #boxHTML,
+  #boxSVG {
+	position: absolute;
+	top: 0;
+	left: 0;
+  }
+
+
+}
