@@ -41,3 +41,11 @@ a {
   color: inherit;
   text-decoration: underline;
 }
+
+.clearfix {
+  &::after {
+    content: '';
+    clear: both;
+    display: block;
+  }
+}
